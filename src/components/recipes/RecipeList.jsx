@@ -35,7 +35,7 @@ const RecipeList = () => {
 
   const sort = (val) => {
     let items;
-    if(val === "up") {
+    if (val === "up") {
       items = [...filterRecipes].sort((a, b) => a.name.localeCompare(b.name));
     } else {
       items = [...filterRecipes].sort((a, b) => b.name.localeCompare(a.name));
@@ -61,13 +61,13 @@ const RecipeList = () => {
         <div className="col-7">
           <div className="align-items-center d-flex justify-content-start">
             <span className="fw-bold mx-2">Sort:</span>
-            <FaSortAlphaUp
+            <FaSortAlphaDown
               onClick={() => {
                 sort("up");
               }}
               className="mx-2 cursor-pointer"
             />
-            <FaSortAlphaDown
+            <FaSortAlphaUp
               onClick={() => {
                 sort("down");
               }}
