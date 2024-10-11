@@ -10,7 +10,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/healthy-food/",
       element: <RecipeContainer />,
       children: [
         {
@@ -18,7 +18,7 @@ function App() {
           element: <RecipeList />,
         },
         {
-          path: "recipe-detail/:id",
+          path: "/healthy-food/recipe-detail/:id",
           element: <RecipeDetail />,
         },
       ],

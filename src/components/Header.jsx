@@ -5,13 +5,13 @@ const Header = () => {
       <div className="container-fluid">
         <div className="navbar-brand d-flex align-items-center">
           <img
-            src="/healthy-food.png"
+            src="/healthy-food/healthy-food.png"
             alt="Logo"
             width="60"
             height="50"
             className="d-inline-block align-text-top"
           />
-          <h2 className="header-text m-0"><Link to="/" className="text-decoration-none text-black"> Healthy Food</Link></h2>
+          <h2 className="header-text m-0"><Link to="/healthy-food/" className="text-decoration-none text-black"> Healthy Food</Link></h2>
         </div>
       </div>
     </nav>

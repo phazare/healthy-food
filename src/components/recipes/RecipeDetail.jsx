@@ -68,7 +68,7 @@ const RecipeDetail = () => {
           </div>
         </div>
         <div className="col-2 d-flex justify-content-end">
-          <Link to="/" className="btn btn-dark">
+          <Link to="/healthy-food/" className="btn btn-dark">
             Back
           </Link>
         </div>

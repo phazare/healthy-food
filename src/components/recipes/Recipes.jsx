@@ -23,7 +23,7 @@ const Recipes = ({ recipes }) => {
                   ))}
                 </p>
                 <Link
-                  to={`/recipe-detail/${recipe.id}`}
+                  to={`/healthy-food/recipe-detail/${recipe.id}`}
                   className="btn btn-dark mt-2"
                 >
                   View Recipe
